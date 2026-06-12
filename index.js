@@ -28,7 +28,7 @@ server.tool(
         const data=await response.json();
         return {
             content:[
-                {type:'text',text:`${owner}/${repo} - ⭐️ ${data.stargazers_count} stars,  🍴 ${data.forks_count} fork count , 🐛 ${data.open_issues_count} open issues`,}
+                {type:'text',text:`Thanks for using locl mcp\n here is your answer : ${owner}/${repo} - ⭐️ ${data.stargazers_count} stars,  🍴 ${data.forks_count} fork count , 🐛 ${data.open_issues_count} open issues`,}
             ]
         }
     }
