@@ -19,7 +19,8 @@ coverage/
 # Build output
 dist/
 build/
-
+rag/node_modules
+rag/build
 # Optional npm cache
 .npm
 
