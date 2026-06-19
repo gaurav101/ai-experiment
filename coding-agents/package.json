@@ -1,0 +1,30 @@
+{
+  "name": "local-personal-coding-agent",
+  "version": "0.1.0",
+  "description": "A local Ollama-powered coding helper that inspects files and proposes patches without writing them.",
+  "type": "module",
+  "bin": {
+    "coding-agent": "./src/cli.js"
+  },
+  "scripts": {
+    "start": "node ./src/cli.js",
+    "agent": "node ./src/cli.js",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "check": "node --check ./src/cli.js && node --check ./src/agent.js && node --check ./src/tools.js && node --check ./src/ollama.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "ollama",
+    "mistral",
+    "coding-agent",
+    "tool-calling",
+    "local-ai"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "vitest": "^4.1.9"
+  }
+}
