@@ -5,6 +5,11 @@
   "main": "index.js",
   "scripts": {
     "index": "node src/index-docs.js",
+    "notes": "node src/notes-assistant.js",
+    "notes:index": "node src/notes-assistant.js index",
+    "notes:ask": "node src/notes-assistant.js ask",
+    "notes:chat": "node src/notes-assistant.js chat",
+    "notes:summarize": "node src/notes-assistant.js summarize",
     "ask:ollama": "node src/ask-ollama.js",
     "ask:lmstudio": "node src/ask-lmstudio.js",
     "ask:openai": "node src/ask-openai.js",
@@ -27,4 +32,3 @@
     "prettier": "^2.8.8"
   }
 }
-
